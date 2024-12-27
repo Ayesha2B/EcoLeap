@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project Ecoleap </title>
+<style>
+                body {
+                                margin: 0;
+                                font-family: Arial, sans-serif;
+                                background-color: #d3f9d8;
+                                scroll-behavior: smooth;
+                }
+                .header {
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                padding: 10px 20px;
+                                background-color: #d3f9d8;
+                                border-bottom: 2px solid #050044;
+                }
+                .header .logo img {
+                                height: 100px;
+                }
+
+                .header .title-box h1 {
+                                margin: 0;
+                                color: #000000;
+                }
+                .header .title-box .explore-button {
+                                margin-top: 10px;
+                                padding: 10px 20px;
+                                background-color: #000000;
+                                color: #ffffff;
+                                border: none;
+                                cursor: pointer;
+                                text-decoration: none;
+                                font-weight: bold;
+                                transition: all 0.3s ease;
+                }
+                .image-background {
+                                position: relative;
+                                width: 100%;
+                                height: 100vh;
+                                background-image: url('1.jpg');
+                                background-size: cover;
+                                background-position: center;
+                                margin: 0 auto;
+                                transition: all 0.3s ease;
+                }
+                .header .title-box .explore-button:hover {
+                                background-color: #002244;
+                                text-decoration: underline;
+                                opacity: 0.8;
+                }
+                .image-background::after {
+                                content: '';
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                background-color: rgba(0, 0, 0, 0.5);
+                }
+                .text-box {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                width: 80%;
+                                padding: 20px;
+                                background-color: rgba(0, 0, 0, 0.5);
+                                border-radius: 15px;
+                                text-align: center;
+                                z-index: 1;
+                                color: white; 
+                }
+                .text-box h1, .text-box p {
+                                color: white; 
+                }
+                .text-box .explore-button {
+                                margin-top: 10px;
+                                padding: 10px 20px;
+                                background-color: #ffffff46;
+                                color: #ffffff;
+                                border: none;
+                                cursor: pointer;
+                                text-decoration: none;
+                                font-weight: bold;
+                                border-radius: 15px;
+                                transition: all 0.3s ease;
+                }
+                .text-box .explore-button:hover {
+                                background-color: #ffffff;
+                                color: #000000;
+                                text-decoration: underline;
+                                opacity: 0.8;
+                }
+                .navbar {
+                                width: 100%;
+                                background-color: #002e02;
+                                overflow: hidden;
+                                padding: 20px 0;
+                                text-align: center;
+                                position: fixed;
+                                top: 0;
+                                z-index: 1000;
+                                white-space: nowrap;
+                }
+                .navbar ul {
+                                list-style-type: none;
+                                margin: 0;
+                                padding: 0;
+                                display: inline-block;
+                                vertical-align: middle;
+                }
+                .navbar ul li {
+                                display: inline;
+                                margin: 0 20px;
+                }
+                .navbar ul li a {
+                                text-decoration: none;
+                                color: #ffffff;
+                                font-weight: bold;
+                font-size: 1em;
+                transition: all 0.3s ease;
+                white-space: nowrap;
+        }
+        .navbar ul li a:hover {
+                background-color: #ffffff;
+                color: #000000;
+                text-decoration: underline;
+                opacity: 0.8;
+                padding: 10px 20px;
+                border-radius: 15px;
+        }
+        .content {
+                padding: 20px;
+                background-color: #ffffff;
+                margin-top: 80px; 
+        }
+        @media (max-width: 768px) {
+                .text-box {
+                        width: 90%;
+                }
+                .navbar ul li {
+                        margin: 0 10px;
+                }
+                .navbar ul li a {
+                        font-size: 0.9em;
+                }
+        }
+</style>
+</head>
+<body>
+
+<div class="image-background">
+        <div class="text-box">
+                <h1>Project EcoLeap: A Greener Way Forward</h1>
+                <p>Empowering communities to take bold steps towards a sustainable, eco-friendly future through innovative solutions and collective action.                </p>
+                <a href="#what-is-it" class="explore-button">About us</a>
+        </div>
+</div>
+
+<div class="navbar">
+        <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#what-is-it">About EcoLeap</a></li>
+                <li><a href="#vision">Our Objectives</a></li>
+                <li><a href="#process">What We Do</a></li>
+                <li><a href="#Significance">Our Significance</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+        </ul>
+</div>
+
+<div class="content">
+    <section id="home" style="text-align: center;">
+        <video width="50%" height="auto" autoplay muted loop style="border-radius: 15px;">
+            <source src="ADVOCACY JOSH.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <br>
+        <br>
+        <br>
+        <hr>
+    </section>
+
+    <section id="what-is-it">
+        <br>
+        <br>
+        <br>
+<h1 style="font-size: 30px; color: #000000;">About EcoLeap</h1>
+<h1 style="font-size: 20px; color: #000000;">ECO LEAP: A Bold Step Toward a Greener Tomorrow</h1>
+<p style="color: #000000;">ECO LEAP is a transformative initiative inspired by the global spirit of the Red Goes Green Movement. It serves as a beacon for environmental sustainability, focusing on reducing carbon footprints, adopting eco-friendly practices, and addressing the critical challenges posed by climate change. This initiative seeks to create a harmonious balance between progress and preservation, fostering a future where human activities coexist with nature.</p>
+
+<h2 style="font-size: 20px; color: #000000;">A Unified Response to Climate Challenges</h2>
+<p style="color: #000000;">Climate change is one of the most pressing issues of our time, requiring a coordinated and collective response. ECO LEAP embodies this approach by empowering individuals, organizations, and communities to take meaningful, measurable steps toward sustainability.</p>
+
+<ul style="color: #000000;">
+        <li><strong>Innovative Solutions:</strong> ECO LEAP champions cutting-edge technologies, renewable energy solutions, and sustainable practices that minimize environmental harm.</li>
+        <li><strong>Grassroots Empowerment:</strong> Communities are at the heart of ECO LEAP. By providing resources, training, and support, the initiative equips them to tackle environmental challenges effectively.</li>
+        <li><strong>Alignment with Global Goals:</strong> ECO LEAP aligns with international sustainability objectives, such as the UN Sustainable Development Goals (SDGs), ensuring its efforts contribute to a larger, global impact.</li>
+</ul>
+
+<h2 style="font-size: 20px; color: #000000;">Engaging Communities for Lasting Change</h2>
+<p style="color: #000000;">ECO LEAP recognizes that meaningful change begins at the local level. The initiative actively involves schools, businesses, and individuals in diverse programs aimed at promoting eco-conscious behavior.</p>
+
+<ul style="color: #000000;">
+        <li><strong>Educational Campaigns:</strong> Workshops, seminars, and hands-on activities raise awareness about climate issues, teaching participants how to integrate sustainability into their daily lives.</li>
+        <li><strong>Collaborative Projects:</strong> From community tree-planting drives to renewable energy installations, ECO LEAP fosters partnerships that amplify its impact.</li>
+        <li><strong>Action-Oriented Goals:</strong> By encouraging practices such as waste segregation, recycling, energy conservation, and water management, ECO LEAP empowers participants to contribute to a healthier environment.</li>
+</ul>
+
+<h2 style="font-size: 20px; color: #000000;">Inspiring a Culture of Green Living</h2>
+<p style="color: #000000;">Through its efforts, ECO LEAP seeks to instill a culture of green living where sustainable practices become second nature.</p>
+
+<ul style="color: #000000;">
+        <li><strong>Lifestyle Changes:</strong> Simple, eco-friendly habits, such as reducing single-use plastics or supporting local, sustainable businesses, are promoted through various campaigns.</li>
+        <li><strong>Advocacy and Policy Support:</strong> ECO LEAP works alongside policymakers and advocates for environmentally-friendly legislation, creating systemic change that supports its mission.</li>
+</ul>
+
+<h2 style="font-size: 20px; color: #000000;">Join Us in Taking the Leap!</h2>
+<p style="color: #000000;">ECO LEAP is not just an initiative—it’s a movement for change. By uniting communities, leveraging technology, and fostering collaboration, it offers a pathway to a sustainable future. Whether you’re an individual looking to make small changes or an organization aiming for large-scale impact, ECO LEAP provides the tools and guidance to take action.</p>
+
+<p style="color: #000000;">Together, we can make a difference—one leap at a time. Join us in turning the tide on environmental challenges and building a sustainable legacy for future generations.</p>
+      <br>
+      <br>
+      <hr>
+    </section>
+
+    <section id="vision">
+        <br>
+        <br>
+        <br>
+<h1 style="font-size: 30px; color: #000000;">Objectives</h1>
+<p style="color: #000000;">ECO LEAP is driven by a set of objectives designed to inspire meaningful environmental action and foster a culture of sustainability. These goals outline a clear path to addressing pressing ecological challenges and empowering communities to protect and restore the planet.</p>
+
+<h2 style="font-size: 20px; color: #000000;">1. Promote Sustainability</h2>
+<p style="color: #000000;">ECO LEAP is committed to promoting sustainable practices that reduce environmental harm and ensure long-term ecological balance.</p>
+<ul style="color: #000000;">
+        <li><strong>Reduce Carbon Footprints:</strong> Encourage individuals, businesses, and institutions to minimize their carbon emissions by transitioning to energy-efficient technologies and low-impact practices.</li>
+        <li><strong>Encourage Energy Conservation:</strong> Advocate for mindful energy use by promoting simple yet impactful actions, such as turning off lights when not in use and optimizing energy consumption in daily activities.</li>
+        <li><strong>Adopt Renewable Sources:</strong> Facilitate the adoption of clean energy solutions like solar, wind, and hydro power to replace reliance on fossil fuels.</li>
+        <li><strong>Eco-Friendly Practices:</strong> Promote sustainable transportation options, such as carpooling, biking, and the use of public transit, to reduce greenhouse gas emissions.</li>
+</ul>
+
+<h2 style="font-size: 20px; color: #000000;">2. Foster Environmental Education</h2>
+<p style="color: #000000;">ECO LEAP emphasizes the importance of education in creating lasting environmental awareness and driving collective action.</p>
+<ul style="color: #000000;">
+        <li><strong>Raise Awareness:</strong> Educate individuals and communities about the causes, impacts, and solutions to climate change through targeted campaigns.</li>
+        <li><strong>Workshops and Training:</strong> Host interactive sessions, seminars, and training programs to equip participants with practical knowledge on sustainable living and environmental stewardship.</li>
+        <li><strong>Community Engagement:</strong> Partner with schools, organizations, and local governments to deliver educational programs that highlight the benefits of sustainable practices.</li>
+        <li><strong>Inspire Action:</strong> Create engaging content, such as videos, infographics, and success stories, to motivate others to participate in environmental conservation efforts.</li>
+</ul>
+
+<h2 style="font-size: 20px; color: #000000;">3. Enhance Waste Management</h2>
+<p style="color: #000000;">Effective waste management is critical to reducing pollution and protecting ecosystems. ECO LEAP prioritizes initiatives to minimize waste and promote responsible disposal.</p>
+<ul style="color: #000000;">
+        <li><strong>Implement Waste Reduction Programs:</strong> Encourage communities and businesses to adopt strategies like composting, reusing materials, and reducing unnecessary waste.</li>
+        <li><strong>Promote Recycling:</strong> Establish accessible recycling programs and educate participants on proper sorting and processing of recyclable materials.</li>
+        <li><strong>Minimize Single-Use Plastics:</strong> Advocate for alternatives to single-use plastics, such as reusable containers, bags, and utensils, while promoting policies that reduce plastic waste.</li>
+        <li><strong>Support Circular Economy Practices:</strong> Foster the reuse of materials and the creation of sustainable products, reducing dependency on finite resources.</li>
+</ul>
+
+<h2 style="font-size: 20px; color: #000000;">4. Support Ecosystem Restoration</h2>
+<p style="color: #000000;">ECO LEAP actively works to restore and protect natural ecosystems while fostering innovation for a sustainable future.</p>
+<ul style="color: #000000;">
+        <li><strong>Reforestation Initiatives:</strong> Organize tree-planting activities to restore degraded lands, improve air quality, and enhance biodiversity.</li>
+        <li><strong>Biodiversity Conservation:</strong> Support projects that protect endangered species, restore habitats, and promote the coexistence of human and natural environments.</li>
+        <li><strong>Adopt Green Innovations:</strong> Encourage the development and use of green technologies, such as biodegradable materials and energy-efficient systems, to minimize ecological damage.</li>
+        <li><strong>Create a Circular Economy:</strong> Facilitate the transition to a circular economy model where waste is minimized, and resources are reused or repurposed, fostering economic and environmental resilience.</li>
+</ul>
+
+<p style="color: #000000;">Through collaboration, education, and innovation, ECO LEAP empowers communities to embrace sustainable practices, address environmental challenges, and contribute to the restoration of the planet. These objectives form the foundation of our mission to create a thriving, sustainable future for all.</p>
+      <br>
+      <hr>
+    </section>
+
+    <section id="process">
+        <br>
+        <br>
+        <br>
+    <h2 style="font-size: 30px; color: #000000;">What we Do</h2>
+<p style="color: #000000;">ECO LEAP is committed to fostering environmental sustainability through hands-on activities, educational programs, and community-driven initiatives. Here’s a detailed look at the key programs we implement to create a positive environmental impact:</p>
+
+<ul style="color: #000000;">
+        <li>
+                <strong>Mangrove Reforestation Campaign Drive</strong>
+                <p>In collaboration with Western Mindanao State University, we engage students, teachers, and staff in restoring mangrove ecosystems.</p>
+                <ul>
+                        <li><strong>Carbon Sequestration:</strong> Mangroves absorb significant amounts of carbon dioxide, mitigating climate change.</li>
+                        <li><strong>Ecosystem Restoration:</strong> These efforts enhance coastal habitats, protecting against erosion and supporting marine biodiversity.</li>
+                        <li><strong>Community Engagement:</strong> Participants gain hands-on experience in environmental restoration, fostering a deeper connection to nature and a commitment to conservation.</li>
+                </ul>
+        </li>
+        <li>
+                <strong>Waste Reduction Challenge</strong>
+                <p>To tackle the growing issue of waste, we encourage the community to rethink their habits and adopt sustainable practices.</p>
+                <ul>
+                        <li><strong>Minimizing Waste Generation:</strong> Participants are challenged to reduce their waste output through mindful consumption and innovative solutions.</li>
+                        <li><strong>Creative Repurposing:</strong> The challenge highlights ways to transform discarded materials into useful or decorative items.</li>
+                        <li><strong>Prizes for Innovation:</strong> Outstanding ideas are recognized and rewarded, motivating the community to embrace a waste-conscious culture.</li>
+                </ul>
+        </li>
+        <li>
+                <strong>Environmental Workshops and Talks</strong>
+                <p>Education is a cornerstone of ECO LEAP. We host a series of interactive sessions led by environmental experts to equip participants with knowledge and skills.</p>
+                <ul>
+                        <li><strong>Topics Covered:</strong> Renewable energy, sustainable agriculture, biodiversity conservation, and eco-friendly lifestyle choices.</li>
+                        <li><strong>Hands-On Learning:</strong> Workshops provide practical applications, such as setting up home composting systems or understanding the basics of solar energy.</li>
+                        <li><strong>Awareness and Advocacy:</strong> These events empower attendees to advocate for sustainability within their communities.</li>
+                </ul>
+        </li>
+        <li>
+                <strong>Campus Clean-up Day</strong>
+                <p>This collaborative activity engages students in beautifying their surroundings while instilling environmental responsibility.</p>
+                <ul>
+                        <li><strong>Litter Removal:</strong> Participants pick up trash across campus, ensuring a clean and welcoming environment.</li>
+                        <li><strong>Invasive Species Management:</strong> Efforts include removing non-native plants that threaten local biodiversity.</li>
+                        <li><strong>Community Building:</strong> The activity fosters teamwork and reinforces the importance of collective action in environmental stewardship.</li>
+                </ul>
+        </li>
+        <li>
+                <strong>Sustainable Living Exhibition</strong>
+                <p>Creativity and innovation are at the heart of this initiative, showcasing projects that inspire eco-friendly living.</p>
+                <ul>
+                        <li><strong>Student-Led Displays:</strong> Participants present eco-friendly inventions, sustainable fashion designs, and green architecture concepts.</li>
+                        <li><strong>Inspiration for Action:</strong> The exhibition encourages attendees to adopt similar practices in their own lives.</li>
+                        <li><strong>Recognition and Support:</strong> Exceptional projects are highlighted, providing a platform for future environmental leaders.</li>
+                </ul]
+
+      <br>
+      <br>
+      <hr>
+    </section>
+
+    <section id="Significance">
+        <br>
+        <br>
+        <br>
+<h2 style="font-size: 30px; color: #000000;">Why This Movement Matters</h2>
+<ul style="color: #000000;">
+        <li><strong>Urgency of Climate Action:</strong> Climate change is progressing at an unprecedented rate, with rising temperatures, extreme weather events, and biodiversity loss posing significant threats to our planet. Collective action is critical to mitigate these effects and protect ecosystems for future generations.</li>
+        <li><strong>The Need for Action:</strong> Scientific evidence emphasizes that immediate steps are essential to limit global warming and reduce environmental harm.</li>
+        <li><strong>Collective Responsibility:</strong> Individual contributions, when combined, create a powerful ripple effect capable of driving large-scale change.</li>
+</ul>
+
+<h2 style="font-size: 20px; color: #000000;">Impact of Small Actions</h2>
+<ul style="color: #000000;">
+        <li><strong>Recycling:</strong> Diverting waste from landfills helps conserve natural resources and reduce pollution.</li>
+        <li><strong>Energy Conservation:</strong> Turning off lights, unplugging unused devices, and using energy-efficient appliances can lower carbon emissions.</li>
+        <li><strong>Proof of Impact:</strong> Studies show that grassroots efforts often inspire larger institutional and policy changes.</li>
+</ul>
+
+<h2 style="font-size: 20px; color: #000000;">Empowering Future Generations</h2>
+<ul style="color: #000000;">
+        <li><strong>Awareness Campaigns:</strong> These initiatives teach children and young adults about the importance of sustainability.</li>
+        <li><strong>Role Modeling:</strong> Adults leading by example inspire youth to adopt and continue sustainable practices.</li>
+        <li><strong>Long-Term Impact:</strong> Empowered future generations can sustain and expand environmental progress.</li>
+</ul>
+
+<h2 style="font-size: 20px; color: #000000;">How You Can Get Involved</h2>
+<ul style="color: #000000;">
+        <li><strong>Volunteer:</strong> Lend your time and skills to green programs in your community or school.</li>
+        <li><strong>Participate in Events:</strong> Join activities like tree-planting drives, coastal clean-ups, or waste segregation workshops.</li>
+        <li><strong>Support Local Organizations:</strong> Collaborate with groups focused on reforestation, conservation, or renewable energy initiatives.</li>
+        <li><strong>Create Your Own Initiatives:</strong> Start a project, such as a community garden or recycling drive, to engage others.</li>
+</ul>
+
+<h2 style="font-size: 20px; color: #000000;">Adopt Sustainable Practices</h2>
+<ul style="color: #000000;">
+        <li><strong>At Home:</strong> Practice waste segregation, compost organic materials, and reduce water consumption.</li>
+        <li><strong>In Purchases:</strong> Opt for reusable items, support local and sustainable products, and avoid single-use plastics.</li>
+        <li><strong>Energy Use:</strong> Transition to renewable energy sources like solar power, and practice energy-saving habits.</li>
+</ul>
+
+<h2 style="font-size: 20px; color: #000000;">Spread Awareness</h2>
+<ul style="color: #000000;">
+        <li><strong>Social Media Advocacy:</strong> Share information, tips, and success stories on platforms to reach a wider audience.</li>
+        <li><strong>Community Engagement:</strong> Host informational sessions or casual discussions about the importance of sustainability.</li>
+        <li><strong>Encourage Others:</strong> Motivate family and friends to adopt greener habits by demonstrating how small changes make a difference.</li>
+</ul>
+
+<p style="color: #000000;">By participating in these efforts, you contribute to a growing movement aimed at safeguarding the environment and creating a sustainable future for all. Together, we can transform collective action into enduring impact.</p>
+        <br>
+        <br>
+        <br>
+                <hr>
+
+        <section id="contact">
+                <br>
+                <br>
+                <br>
+                <h2 style="font-size: 30px; color: #000000; text-align: center;">Contact Us</h2>
+                <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+                        <p style="color: #000000;">Join the ECO LEAP Movement Today! <strong>"Together, we can make a difference for our planet."</strong></p>
+                        <p style="color: #000000;">Thank You for Your Attention! We appreciate your interest in creating a sustainable future.</p>
+                        <p style="color: #000000;">Questions? We invite you to ask any questions or share your thoughts about the ECO LEAP initiative and how you can get involved.</p>
+                        <p style="color: #000000;">How to Get Involved: Message us at <a href="mailto:info@ecoleap.org" style="color: #000000; text-decoration: none;"><strong>info@ecoleap.org</strong></a> to sign up for volunteer events, donate, or learn more about sustainability practices.</p>
+                        <img src="logo.png" alt="EcoLeap Logo" style="max-width: 30%; height: auto; margin-top: 20px;">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                </div>
+        </section>
+</div>
+    
+
+<footer style="position: fixed; bottom: 0; left: 0; right: 0; text-align: center; padding: 20px; background-color: #002e02; color: white; width: 100%; box-sizing: border-box; display: flex; align-items: center; justify-content: center;">
+        <p style="font-size: 20px; margin: 0;">Advocate to Healthier and Ecological Friendly Environment - @2024</p>
+</footer>
+
+</body>
+</html>
